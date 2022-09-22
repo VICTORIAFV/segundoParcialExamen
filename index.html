@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Cabecera fija</title>
+     <link rel="stylesheet" href="estilo.css">
+     <link rel="stylesheet" href="login.css">
+     <script  src="app.js" type=""></script>
+</head>
+<body>	
+	<header id="main-header">		
+		<a id="logo-header" href="#">
+			<img src="pc.png" height="50px;" width="100px" >
+		</a> <!-- / #logo-header -->
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Servicio</a></li>
+				<li><a href="#">Contactos</a></li>
+				<li><a href="#">Acerca De</a></li>
+				<li><a href="#">
+					<input type="text" placeholder="Buscar">				</a>
+				</li>
+			</ul>			
+		</nav><!-- / nav -->
+			
+	</header><!-- / #main-header -->
+    <section>
+    	<div id="main-content">
+    		<header class="jpg">
+	              	<form id="" >
+	              		<center>
+	              			<img src="pantalla.png" width="700px" height="10px">
+	              		</center>
+					</form>						
+		        <form id="">
+					<img src="fondo1.jpg" width="700px" height="60px">
+			  </form>	         
+	    </header>	  
+    	</div>	                		
+	        <article id="main-content">	      
+	        	<form class="coverBs">
+	        		<br>
+							    <h2>Ingrese en Bs.</h2>
+							    
+								<input type="text" placeholder="escribir un" id="bs">
+								<br>
+						<input type="button" value="Convertir de Bs. A $" onclick="convertir_a_$(document.getElementById('bs').value)">
+						<script type="text/javascript">
+							function convertir_a_$(bs)
+							{
+								numero=/[0-9\.]$/;
+								if (!numero.exec(bs)) {
+									alert("Esto no es un numero");		
+								}
+								else{
+									dolar=6.96;
+									resultado=bs*dolar;
+									document.getElementById("total").innerHTML="El Total Es: "+resultado.toFixed(2) +" $. ";
+								}
+							}
+						</script>
+						<div id="total"></div>
+
+						
+
+			
+	        </div>	
+			  <div class="">
+			  	<hr size="px" width="100%" noshade="noshade" align="rigght">
+	              <div id="contenedor">
+            
+            <div id="contenedorcentrado">
+                <div id="login">
+                    <form id="loginform">
+                        <label for="usuario">Usuario</label>
+                        <input id="NombreUsuario" type="text" name="usuario" placeholder="Usuario" required>
+                        
+                        <label for="password">Contraseña</label>
+                        <input id="password" type="password" placeholder="Contraseña" name="password" required>
+                        
+                        <button type="submit" title="Ingresar" name="Ingresar">Login</button>
+                      <br>
+                        
+                        </script>                        
+                    </form>
+                    
+                </div>
+
+                <div id="derecho">
+                    <div class="titulo">
+                        Bienvenido
+                    </div>
+                    <hr>
+                    <div class="pie-form">
+                        <a href="#">¿Perdiste tu contraseña?</a>
+                        <a href="#">¿No tienes Cuenta? Registrate</a>
+                        <hr>
+                        <a href="#">« Volver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+				<br>
+         </div>	
+         <br>		
+		</article> <!-- /article -->	
+	</section> <!-- / #main-content -->	
+
+	<footer>
+	
+		<section >
+		<center>
+			<label>Iniciar Sesion</label>
+		<br>
+		<input id="NombreUsuario" type="text" placeholder="Nombre usuario" name="">
+		<br>
+		<button>ENVIAR</button>
+		<br>
+		<a >_________________________</a>
+			
+				<img class="logoPiePagina" src="22.jpg" width="100px" height="200px">
+				
+		</center>
+	</section>
+	
+	<br>
+	<br>
+	<section  class="caja">
+		    <div class="cajas">
+		    <h2>Direccion</h2> 
+		    	<p>
+		    	CBBA-Tiquipaya
+		    	Av.linde
+
+		    </p>
+		</div>
+
+
+			<div class="cajas">
+			<h3>Contactos:</h3> 
+			<P>
+					Ref:
+					768354953-86988997
+				</P>
+
+			</div>
+			<div class="cajas"> 
+				<h2>Email</h2>
+				<center>
+					<p>
+					Si no quieres sentirte frustrado, no te pongas metas imposibles
+					</p>
+				</center>		
+		</div>
+			<div class="cajas">
+					<h2>Servicios</h2>	
+					<li><a href=""> inglesa</a></li>
+						<li><a href="">francesa</a></li>	<li><a href="">rusa</a></li>
+						<li><a href=""> americana</a></li>			
+				</div>	
+	</section>			
+			
+	</footer> <!-- / #main-footer -->	
+</body>
+</html>

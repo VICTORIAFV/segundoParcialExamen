@@ -1,0 +1,27 @@
+<form>
+  <div class="emailBox">
+    <label for="emailAddress">Tu dirección de correo electrónico</label><br />
+    <input
+      id="emailAddress"
+      type="email"
+      size="64"
+      maxlength="64"
+      required
+      placeholder="username@beststartupever.com"
+      pattern=".+@beststartupever\.com"
+      title="Proporcione solo una dirección de correo electrónico corporativa de Best Startup Ever"
+    />
+  </div>
+
+  <div class="messageBox">
+    <label for="message">Solicitud</label><br />
+    <textarea
+      id="message"
+      cols="80"
+      rows="8"
+      required
+      placeholder="Mis zapatos están demasiado apretados y he olvidado cómo bailar."
+    ></textarea>
+  </div>
+  <input type="submit" value="Enviar solicitud" />
+</form>

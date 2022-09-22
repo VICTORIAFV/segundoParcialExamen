@@ -1,0 +1,114 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;	
+	padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
+}
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	}
+	#main-header a {
+		color: white;
+	}
+
+ .jpg{
+ 	 	display: flex;
+ 	 	background: white;
+ 	 	padding-left: 10px;
+ 	 	padding-right: 10px;
+ 	 	padding-bottom: 0px;
+ 	 	padding-top: 10px;	
+ 	 	
+ }
+ #logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+nav {
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}			
+			nav ul li a {
+				display: white;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #0b76a6;
+			}
+.CajaDatos{
+	text-align: center;
+}
+#logo-header{
+	height: 10px;
+}
+.coverBs
+{
+    color: #333333;
+	margin:30px;
+	text-align: center;
+}
+.content-jpg{
+	height: 30px;
+	width: 60px;
+}
+#main-content {
+	background: white;
+	color: white;
+	margin: 20px;
+
+}
+	
+	#main-header {
+	background: #333;
+	color: white;
+	height: 80px;	
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+footer {
+background: #1D1E1F;
+padding: 0px;
+
+}
+.caja{
+	display: flex;
+
+}
+.cajas{
+	
+	background-color: white;
+	margin: 10px;
+	padding: 5px;
+	text-align: left;;
+}
